@@ -97,9 +97,9 @@ header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alter
     flex-direction: column; /*Estamos direcionando o posicionamento dessas listas*/
     text-align: end; /*Alinhando o texto ao centro*/
     gap: 1.2rem; /*Espaço entre as listas */
-    /* width: 0%; Zeramos a largura podendo retirar essa linha para testar visualizão */
+    width: 0%;  /* Zeramos a largura podendo retirar essa linha para testar visualizão */
     list-style: none; /*Estilo de lista desabilitado*/
-    /* padding: 0; Preenchimento zerado, podendo também ser retirado para testes */
+    padding: 0; /* Preenchimento zerado, podendo também ser retirado para testes */
 }
 
 .nav-links-mobile li { /*listas da versão Mobile*/
@@ -250,11 +250,11 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
     margin-top: 10px; /* indica o espaço acima do elemento / superior */
 }
 
-/* #clients .img-femi{
+#clients .img-femi{
    width: 25%;
    height:auto;
    margin-bottom: 1.2em;     
-} */
+} 
 
 
 .clients-item > p { /* Aqui chamamos nossa TAG P para estilização*/
