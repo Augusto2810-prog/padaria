@@ -33,6 +33,28 @@ header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alter
     height: auto; /* Tamanho da nossa imagem no tamanho automático*/
 }
 
+.icon1 {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #fff;
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+  
+}
+
+.icon-01:hover {
+    font-weight: 900;
+    box-shadow: 2px 2px 2px #c0bdbd;
+  }
+
+
 
 .item-menu-header { /* Nossas li que estão dentro do LIST MENU, onde se encontram os nomes dos itens apresentados no HEADER */
     margin-right: 25px; /* margem da direita */
